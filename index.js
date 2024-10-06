@@ -1,51 +1,36 @@
-// JavaScript Arithmetic Operators
-// Arithmetic operators are used to perform arithmetic between variables and/or values.
 
-// Addition
-let y = 5
-let x = y+2
-console.log(`Addition by 2 if y = 5 then x = ${x}`);
+// Arrays
+const numbers = [1, 2, 3, 4, 5];
 
+// console.log(numbers[0]); // Output: 1
+// console.log(numbers[2]); // Output: 3
+// console.log(numbers[4]);
 
-// subtraction
-let a = 5
-let b = a-2
-console.log(`subtraction by 2 if a = 5 then b = ${b}`);
+// numbers.push(6); // Add 6 to the end of the array
+// console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
 
+// numbers.pop(); // Remove the last element from the array
+// console.log(numbers); // Output: [1, 2, 3, 4, 5]
 
-// multiply
-let d = 5
-let c = d*2
-console.log(`multiply by 2 if d = 5 then c = ${c}`);
+// numbers.shift(); // Remove the first element from the array
+// console.log(numbers); // Output: [2, 3, 4, 5]
 
+//                                                               15
 
-// division
-let n = 5
-let m = n/2
-console.log(`division by 2 if n = 5 then m = ${m}`);
+// numbers.unshift(0); // Add 0 to the beginning of the array
+// console.log(numbers); // Output: [0, 2, 3, 4, 5]
 
+// const slicedNumbers = numbers.slice(1, 3); // Create a new array from index 1 to 2 (exclusive)
+// console.log(slicedNumbers); // Output: [2, 3]
 
-// reminder
-let g = 5
-let h = g%2
-console.log(`reminder by 2 if g = 5 then h = ${h}`);
+// numbers.splice(2, 1); // Remove one element starting from index 2
+// console.log(numbers); // Output: [0, 2, 4, 5]
 
+// const joinedNumbers = numbers.join(", "); // Join the elements with a comma and space
+// console.log(joinedNumbers); // Output: 0, 2, 4, 5
 
-// Incrementing
-let f = 5;
-f++;
-let z = f;
-console.log(`Incrementing by 1 if f = 5 then z = ${z}`);
+// numbers.reverse(); // Reverse the order of the elements
+// console.log(numbers); // Output: [5, 4, 2, 0]
 
-
-// Decrementing
-let o = 5;
-o--;
-let p = o;
-console.log(`Decrementing by 1 if o = 5 then p = ${p}`);
-
-
-// Exponentiation
-let s = 5;
-let l = o**3;
-console.log(`Exponentiation by 2 if s = 5 then l = ${l}`);
+// numbers.sort(); // Sort the elements in ascending order
+// console.log(numbers); // Output: [0, 2, 4, 5]
